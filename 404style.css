@@ -1,0 +1,66 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #344D59;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+  
+  .headerlist {
+    margin-left: auto;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+  }
+  
+  nav li {
+  margin-left: 10px;
+  }
+  
+  body {
+    margin: 0; /* Réinitialise la marge par défaut du body */
+    margin-top: 70px; /* Remplace 50px par la hauteur réelle de ton header */
+  }
+
+.containerA {
+    display: flex;
+    margin-left: 15%; /*Défini la marge gauche */
+    margin-right: 10%; /*Défini la marge droite */
+  }
+  
+  .columnA {
+    flex: 1;
+  }
+
+  .columnAA {
+    flex: 1;
+  }
+
+  p {
+    font-size:80px;
+    color: #344D59;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .lightbluetext {
+    color:#b8cbd0  
+  }
+
+  ul li {
+    list-style-type: none;  
+    line-height: 30px;
+  }

@@ -1,0 +1,138 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #344D59;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.headerlist {
+  margin-left: auto;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 15px;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+
+nav li {
+margin-left: 10px;
+}
+
+body {
+  margin: 0; /* Réinitialise la marge par défaut du body */
+  margin-top: 75px; /* Remplace 50px par la hauteur réelle de ton header */
+}
+
+.footer {
+  text-align: center; /* Centre le contenu de la balise parente */
+}
+
+
+table {
+  width: 100%; /* Étend la table sur toute la largeur disponible */
+  width: 50%; /* Définir la largeur souhaitée pour la table */
+  margin-left: auto; /* Centre la table en ajustant automatiquement la marge gauche */
+  margin-right: auto; /* Centre la table en ajustant automatiquement la marge droite */
+  border-collapse: separate; /* Sépare les bordures des cellules */
+  border-spacing: 10px 5px; /* Espacement entre les lignes et colonnes de la table */
+  }
+
+
+table td, table th {
+  padding: 8px; /* Ajoute de l'espace interne aux cellules */
+  border: 1px solid #ccc; /* Ajoute une bordure aux cellules */
+  text-align: center; /* Centre le contenu des cellules */
+  border-radius: 10px; /* Arrondit les coins des cellules */
+}
+
+table th {
+  background-color:#344D59; /* Couleur de fond pour les cellules d'en-tête */
+  color: #ccc;
+}
+
+.photodeprofil {
+  display: block; /* Assure-toi que l'image est un élément de type bloc */
+  max-width: 30%; /* Réduit la largeur de l'image à 100% de la largeur de son conteneur */
+  height: auto; /* Ajuste automatiquement la hauteur en conservant les proportions d'origine */
+  margin: 0 auto; /* Centre l'image horizontalement en appliquant une marge automatique sur les côtés */
+}
+
+h1 {
+  text-align: center; /* Centre le contenu de la balise parente */
+  font-weight: bold;
+  color: #344D59;
+}
+
+h2 {
+  text-align: center; /* Centre le contenu de la balise parente */
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center; /* Centre le contenu de la balise parente */
+  color: #344D59;
+}
+
+h4 {
+  text-align: center; /* Centre le contenu de la balise parente */
+  color:#344D59 ;
+}
+
+p {
+  text-align: center; /* Centre le contenu de la balise parente */
+}
+
+.containerA {
+  display: flex;
+  margin-left: 25%; /*Défini la marge gauche */
+  margin-right: 25%; /*Défini la marge droite */
+}
+
+.columnA {
+  flex: 1;
+}
+
+.columnAA {
+  flex: 1;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.containerb {
+  display: flex;
+  margin-left: 25%; /*Défini la marge gauche */
+  margin-right: 25%; /*Défini la marge droite */
+}
+
+.columnb {
+  flex: 1;
+}
+
+.jerome {
+  margin-left: 10%; /*Défini la marge gauche */
+  margin-right: 10%; /*Défini la marge droite */
+  color:#344D59;
+  font-weight: bold;
+}
+
+.user {
+  margin-left: 10%; /*Défini la marge gauche */
+  margin-right: 10%; /*Défini la marge droite */
+  color:#b8cbd0;
+  font-weight: bold;
+}
+
+
+
